@@ -1,0 +1,49 @@
+body {
+  background-color: cadetblue;
+}
+* {
+  font-family: Arial;
+}
+
+#formulario {
+  width: 290px;
+}
+#formulario > div {
+  margin-bottom: 2px;
+}
+#formulario > div:last-child {
+  text-align: center;
+  margin-top: 20px;
+}
+#formulario input {
+  text-align: right;
+}
+#resultado {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+label {
+  width: 120px;
+  display: inline-block;
+}
+
+.red {
+  color: red;
+  border: 1px solid red;
+  background-color: #fff2f2;
+}
+.green {
+  color: green;
+  border: 1px solid green;
+  font-weight: bold;
+  background-color: #d9ffd9;
+}
+.titulo {
+  color: cyan;
+  font-size: 25px;
+}
+.imagen1 {
+  font-weight: 50px;
+}

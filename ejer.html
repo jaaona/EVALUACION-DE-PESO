@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+ <link rel="stylesheet" href="../peso/css/estilos.css">
+ <title>TALLA Y PESO</title>
+
+</head>
+<body>
+    <h1 class="titulo">TU PESO RECOMENDADO</h1>
+ 
+    <form id="formulario">
+        <div>
+            <label>Altura (cm)</label><input type="number" min="1" max="300" name="altura">
+        </div>
+        <div>
+            <label>Edad</label><input type="number" min="1" max="120" name="edad">
+        </div>
+        <div>
+            <label>Sexo ♥</label><input type="radio" name="sexo" value="M" checked>Mujer<input type="radio" name="sexo" value="H">Hombre
+        </div>
+        <div>
+            <label>Peso (kg)</label><input type="number" min="1" max="300" name="peso">
+        </div>
+ 
+        <div id="resultado"></div>
+ 
+        <div>
+            <input type="submit" value="Calcular">
+        </div>
+ <div>
+     <img src="../peso/img/typ.jpg" class="imagen1">
+ </div>
+    </form>
+ <script src="../peso/js/cod.js"></script>
+</body>
+</html>
+ 
